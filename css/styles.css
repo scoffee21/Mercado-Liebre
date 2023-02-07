@@ -1,0 +1,408 @@
+main{
+    height: 150px;
+    background-color: #fbbc02;
+    position: relative;
+}
+h1{
+    background-color: #fbbc02;
+    color: #fbbc02;
+    border: 40px solid #fbbc02;
+}
+h2{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 30px;    
+    padding-bottom: 30px;
+}
+img{
+    height: 40px;
+    width: auto; 
+}
+.tlp1{
+    text-align: left;
+    font-size: 85%;
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: unset;
+    bottom: 40px;
+    padding-left: 39px;
+    transition: font-size 0.95 ease-in 0.5;
+    color:black;
+}
+.tlp1:hover{
+    font-size: 15px;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    color: black;
+}
+.ol2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    display: block;
+    position: relative;
+    margin-top: 0;;
+    right: 0.5%;
+    bottom: 90px;
+    transition: font-size 0.95 ease-in 0.5;
+    color:black;
+
+}
+.ol2:hover{
+    font-size: 15px;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    color: black;
+}
+.ol3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    display: block;
+    right: 1.5%;
+    transition: font-size 0.95 ease-in 0.5;
+    color:black;
+}
+.ol3:hover{
+    font-size: 15px;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    color: black;
+}
+.ol4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    transition: font-size 0.95s ease-in 0.5s;
+    color:black;
+}
+.ol4:hover{
+    font-size: 15px;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    color: black;
+}
+.ol34{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    transition: font-size 0.95s ease-in 0.5s;
+    color:black;
+}
+.ol34:hover{
+    font-size: 15px;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    color: black;
+}
+.bx-log-in-circle{
+    font-size: 20px;
+}
+.bx-id-card{
+    font-size: 20px;
+}
+.bxs-donate-blood{
+    font-size: 20px;
+}
+.banner1{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+.img2, .img3, .img4, .img5{
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 6px;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 29px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+h3{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 30px;    
+    padding-bottom: 30px;
+}
+.img6, .img8{
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 6px;
+    height: 300px !important;
+    width: 300px !important;
+    bottom: 50px;  
+}  
+.img6{
+    padding-right: 50px;   
+    padding-left: 50px;
+}
+.img8{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+hr{
+    top: 200px;
+    bottom: 200px;
+}
+.f1{
+    padding-left: 40px;
+    text-align: left;
+
+}
+.registro{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 326px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+input{
+    height: 27px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(197, 197, 197);
+}
+.Nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Email{
+    height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Contraseña{
+    height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.text{
+    margin-bottom: 10px;
+}
+.mail{
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.boton6{
+    font-size: 20px;
+    background-color: rgb(81, 32, 128);
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 6px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+.imgre{
+    margin-left: 120px;
+    padding-bottom: 5px;
+}
+.celular2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado5, .centrado6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tv2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.tv1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado1, .centrado2, .centrado3, .centrado4{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 239px;
+    height: 58px;
+    font-size: 15px;
+    padding-bottom: 40px;
+    padding-right: 78px;
+}
+.cafetera{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.celular1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.mac{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.boton1, .boton2, .boton3, .boton4{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(35%, -126%);
+    font-size: 14px;
+    background-color: rgb(24, 141, 187);
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 6px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+}
+.img8 , .img6{
+    height: 300px;
+    width: 300px;
+}
+.modal-content{
+    height: 482px;
+    width: 300px;
+}
+.close{
+border: 0;
+background-color: none;
+}
+.btn-success{
+    color: transparent !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    margin-left: 1230px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: none;
+}
+a{
+    text-decoration: none;
+}
+.servicios7{
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid rgb(199, 198, 198);
+}
+.otros25{
+    display: block;
+    border-right: 1px solid rgb(199, 198, 198);
+    padding-left: 9px !important;
+}
+.t23{
+    display: block;
+    padding-left: 9px !important;
+}
+.servicio21{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display:contents;
+
+}
+.otros5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display:contents;
+}
+.Trabajar2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display:contents;
+    
+}
+.row{
+   flex-wrap: nowrap !important;
+   --bs-gutter-x: 0 !important;
+   margin-left: 15px !important;
+   
+   
+}
+.row>* {
+    flex-shrink: inherit !important;
+}
+*,::after, ::before {
+    box-sizing: content-box !important;
+}
+.redes{
+    padding-left: 0px;
+}
+.pagos{
+    padding-left: 0px;
+}
+.col-4{
+    border-right: 20px solid rgb(199, 198, 198) !important;
+    margin-left: 17px !important;
+}
+.enviar1{
+    margin-left: 4px !important;
+    font-size: 14px !important;
+    background-color: rgb(24, 141, 187) !important;
+    border: 0px solid transparent !important;
+    color: white !important;
+    border-radius: 6px !important;
+    padding-right: 12px !important;
+    padding-top: 6px !important;
+    padding-left: 12px !important;
+    padding-bottom: 6px !important;
+}
+.facebook{
+    text-decoration: none;
+    color: black;
+}
+.instagram{
+    text-decoration: none;
+    color: black;
+}
+.linke{
+    text-decoration: none;
+    color: black;
+}
+.yt{
+    text-decoration: none;
+    color: black;
+}
+.modal-content {
+    height: 510px;
+    width: 504px;
+}

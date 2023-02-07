@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" sizes="64x64" href="./img/favicon.ico">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="../Parte 1/css/styles.css">
+    
+
+</head>
+<body>
+    <main class="container">
+      <div> 
+        <h1 class="liebre">
+        <img src="./img/mercado-liebre.png" alt="liebre"></h1>
+        <a class="ol2"><i class='bx bxs-donate-blood'></i>Todas las opciones en un solo lugar</a>
+        <a class="tlp1">Todos los productos</a>
+        <a class="ol34">Creá tu cuenta<i class='bx bx-id-card'></i></a>
+        <a class="ol4"><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#dialogo1"> 
+            Ingresá <i class='bx bx-log-in-circle'></i></a></button> <div class="modal fade" id="dialogo1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- cabecera del diálogo -->
+                <div class="modal-header">
+                  <!-- h4 class="modal-title">Registro</h4> -->
+                  <button type="button" class="close" data-dismiss="modal">x</button>
+                </div>
+                <!-- cuerpo del diálogo -->
+                <div class="modal-body">
+                    <form class="f1">
+                        <img class="imgre" src="./img/mercado-liebre.png" alt="">
+                        <h4 class="registro">Registro </h4>
+                        <label class="Nombre">Nombre:
+                            <input class="text" type="text">
+                        </label><br>
+                        <label class="Email">E-mail:
+                            <input class="mail" type="email">
+                        </label><br>
+                        <label class="Contraseña">Contraseña:
+                            <input class="password" type="password">
+                        </label><br>
+                        </form>
+                </div>
+                <!-- pie del diálogo -->
+                <div class="modal-footer">
+                  <button type="button" class="boton6" data-dismiss="modal">Registrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+            <!-- <div class="modal fade" id="dialogo1">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    Contenido del modal
+                </div>
+                </div>
+            </div> -->
+    </div>         
+    </main>
+    <header>
+      <img class="banner1" src="E:\proyecto\Parte 1\img\banner1.jpg" alt="banner2">
+      <hr>
+      <div><h2>Disfruta nuestras ofertas</h2></div>
+      <div class="contenedor1 col-12">
+          <div class="cafetera"><img class="img2" src="./img/productos/img-cafetera-moulinex.jpg" alt="">
+              <div class="centrado1">Cafetera Moulinex</div>  
+              <button class="boton1">Comprar</button>
+          </div>
+          <div class="mac"><img class="img3" src="./img/productos/img-macbook-pro-2019.jpg" alt="">
+              <div class="centrado2">Macbook Pro 2019</div>
+              <button class="boton2">Comprar</button>
+          </div>
+          <div class="tv1"><img class="img4"src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+              <div class="centrado3">TV LG 40 Pulgadas</div>
+              <button class="boton3">Comprar</button>
+          </div>
+          <div class="celular1"><img class="img5" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="">
+              <div class="centrado4">Samsung Galaxy</div>
+              <button class="boton4">Comprar</button>
+          </div>
+      </div>
+      <hr>
+      <div><h3>Productos destacados</h3></div>
+      <div class="contenedor2 col-12">
+          <div class="celular2">
+              <img class="img8"src="./img/productos/img-samsung-galaxy-s10.jpg">
+              <div class="centrado5">Smartphone Samsung Galaxy</div>
+          </div>
+          <div class="tv2">
+              <img class="img6"src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+              <div class="centrado6">TV Smart 40" Samsung</div>
+          </div>
+      </div>
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/banner2.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner3.jpg" class="d-block w-100 h-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner4.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </header>
+    <footer>
+      <hr>
+        <div class="row .col-4">
+          <div class="servicios7">
+              <h5 class="servicio21">Seguinos</h5>
+              <ul class="redes">
+                <a class="facebook" href="https://facebook.com/"><i class='bx bxl-facebook' ></i>Facebook</a><br>
+                <a class="instagram" href="https://instagram.com/"><i class='bx bxl-instagram'></i>Instagram</a><br>
+                <a class="linke" href="https://linkedin.com/"><i class='bx bxl-linkedin' ></i>Linkedin</a><br>
+                <a class="yt" href="https://www.youtube.com/"><i class='bx bxl-youtube' ></i>Youtube</a><br>
+              </ul>
+          </div>
+          <div class="otros25">
+              <h5 class="otros5">Otros servicios</h5>
+              <ul class="pagos">
+                <a>MercadoLiebre Pago</a><br>
+                <a>MercadoLiebre Shops</a><br>
+                <a>Liebre Envios</a><br>
+              </ul>
+          </div>
+          <div class="t23">
+              <h5 class="Trabajar2">Trabaja con nosotros</h5>
+                <form>
+                    <input class="texto21" type="text" placeholder="Ingresa tu email"><button class="enviar1">Enviar</button>
+                  </label>
+                </form>
+            
+          </div>
+        </div>
+
+   </footer>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
